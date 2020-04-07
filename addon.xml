@@ -1,18 +1,18 @@
-<addon id="plugin.video.tugaflix" name="TugaFlix" provider-name="xventil and m4xc4v413r4" version="0.6.0">
- <requires>   
+<addon id="plugin.video.tugatv" name="tugatv" provider-name="xventil and m4xc4v413r4" version="1.0.0">
+ <requires>
     <import addon="xbmc.python" version="2.14.0"/>
     <import addon="script.module.urlresolver"/>
     <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="script.module.t0mm0.common" />
- </requires>   
- <extension library="addon.py" point="xbmc.python.pluginsource">   
-  <provides>video</provides>   
- </extension>   
- <extension point="xbmc.addon.metadata">   
-  <language>pt</language>   
-  <platform>all</platform>   
-  <summary lang="pt">TugaFlix</summary>   
-  <description lang="pt">TugaFlix UnOfficial</description>   
-  <platform>all</platform>   
- </extension>   
+ </requires>
+ <extension library="addon.py" point="xbmc.python.pluginsource">
+  <provides>video</provides>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+  <language>pt</language>
+  <platform>all</platform>
+  <summary lang="pt">tuga.tv</summary>
+  <description lang="pt">tuga.tv UnOfficial</description>
+  <platform>all</platform>
+ </extension>
 </addon>  
