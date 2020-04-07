@@ -24,7 +24,7 @@ h = HTMLParser.HTMLParser()
 
 
 addon_id = 'plugin.video.tugatv'
-addon_version = '1.0.0'
+addon_version = '1.0.2'
 selfAddon = xbmcaddon.Addon(id=addon_id)
 addonfolder = selfAddon.getAddonInfo('path')
 artfolder = '/resources/img/'
@@ -46,50 +46,50 @@ def CATEGORIES():
 
 
 def SUB_CAT_FILMES():
-    addDir ('Todos Filmes','https://tuga.tv/filmes?genero=0&ordem=1',1,'https://i0.wp.com/www.bitacine.com/wp-content/uploads/2015/04/BitaCine-BORRADOR-Series-y-Cine-1.png')
-    addDir ('Acção','https://tuga.tv/filmes?pesquisa=&genero=1&ordem=1',1,'')
-    addDir ('Animação','https://tuga.tv/filmes?pesquisa=&genero=2&ordem=1',1,'')
-    addDir ('Aventura','https://tuga.tv/filmes?pesquisa=&genero=3&ordem=1',1,'')
-    addDir ('Biografia','https://tuga.tv/filmes?pesquisa=&genero=4&ordem=1',1,'')
-    addDir ('Comédia','https://tuga.tv/filmes?pesquisa=&genero=5&ordem=1',1,'')
-    addDir ('Crime','https://tuga.tv/filmes?pesquisa=&genero=6&ordem=1',1,'')
-    addDir ('Desporto','https://tuga.tv/filmes?pesquisa=&genero=7&ordem=1',1,'')
-    addDir ('Documentário','https://tuga.tv/filmes?pesquisa=&genero=8&ordem=1',1,'')
-    addDir ('Drama','https://tuga.tv/filmes?pesquisa=&genero=9&ordem=1',1,'')
-    addDir ('Familiar','https://tuga.tv/filmes?pesquisa=&genero=10&ordem=1',1,'')
-    addDir ('Fantasia','https://tuga.tv/filmes?pesquisa=&genero=11&ordem=1',1,'')
-    addDir ('SciFi','https://tuga.tv/filmes?pesquisa=&genero=12&ordem=1',1,'')
-    addDir ('Guerra','https://tuga.tv/filmes?pesquisa=&genero=13&ordem=1',1,'')
-    addDir ('História','https://tuga.tv/filmes?pesquisa=&genero=14&ordem=1',1,'')
-    addDir ('Mistério','https://tuga.tv/filmes?pesquisa=&genero=15&ordem=1',1,'')
-    addDir ('Música','https://tuga.tv/filmes?pesquisa=&genero=16&ordem=1',1,'')
-    addDir ('Romance','https://tuga.tv/filmes?pesquisa=&genero=17&ordem=1',1,'')
-    addDir ('Suspense','https://tuga.tv/filmes?pesquisa=&genero=18&ordem=1',1,'')
-    addDir ('Terror','https://tuga.tv/filmes?pesquisa=&genero=19&ordem=1',1,'')
-    addDir ('Western','https://tuga.tv/filmes?pesquisa=&genero=20&ordem=1',1,'')
+    addDir ('Todos Filmes','https://tuga.tv/filmes',1,'https://i0.wp.com/www.bitacine.com/wp-content/uploads/2015/04/BitaCine-BORRADOR-Series-y-Cine-1.png')
+    addDir ('Acção','https://tuga.tv/filmes?genero=1&ordem=1',1,'')
+    addDir ('Animação','https://tuga.tv/filmes?genero=2&ordem=1',1,'')
+    addDir ('Aventura','https://tuga.tv/filmes?genero=3&ordem=1',1,'')
+    addDir ('Biografia','https://tuga.tv/filmes?genero=4&ordem=1',1,'')
+    addDir ('Comédia','https://tuga.tv/filmes?genero=5&ordem=1',1,'')
+    addDir ('Crime','https://tuga.tv/filmes?genero=6&ordem=1',1,'')
+    addDir ('Desporto','https://tuga.tv/filmes?genero=7&ordem=1',1,'')
+    addDir ('Documentário','https://tuga.tv/filmes?genero=8&ordem=1',1,'')
+    addDir ('Drama','https://tuga.tv/filmes?genero=9&ordem=1',1,'')
+    addDir ('Familiar','https://tuga.tv/filmes?genero=10&ordem=1',1,'')
+    addDir ('Fantasia','https://tuga.tv/filmes?genero=11&ordem=1',1,'')
+    addDir ('SciFi','https://tuga.tv/filmes?genero=12&ordem=1',1,'')
+    addDir ('Guerra','https://tuga.tv/filmes?genero=13&ordem=1',1,'')
+    addDir ('História','https://tuga.tv/filmes?genero=14&ordem=1',1,'')
+    addDir ('Mistério','https://tuga.tv/filmes?genero=15&ordem=1',1,'')
+    addDir ('Música','https://tuga.tv/filmes?genero=16&ordem=1',1,'')
+    addDir ('Romance','https://tuga.tv/filmes?genero=17&ordem=1',1,'')
+    addDir ('Suspanse','https://tuga.tv/filmes?genero=18&ordem=1',1,'')
+    addDir ('Terror','https://tuga.tv/filmes?genero=19&ordem=1',1,'')
+    addDir ('Western','https://tuga.tv/filmes?genero=20&ordem=1',1,'')
 
 def SUB_CAT_SERIES():
     addDir ('Todas as Séries','https://tuga.tv/series',3,'https://pngimage.net/wp-content/uploads/2018/06/series-png-3.png')
-    addDir ('Acção','https://tuga.tv/series?T=&G=Ac%C3%A7%C3%A3o&O=1',3,'')
-    addDir ('Animação','https://tuga.tv/series?T=&G=Anima%C3%A7%C3%A3o&O=1',3,'')
-    addDir ('Aventura','https://tuga.tv/series?T=&G=Aventura&O=1',3,'')
-    addDir ('Biografia','https://tuga.tv/series?T=&G=Biografia&O=1',3,'')
-    addDir ('Comédia','https://tuga.tv/series?T=&G=Com%C3%A9dia&O=1',3,'')
-    addDir ('Crime','https://tuga.tv/series?T=&G=Crime&O=Ad icionado',3,'')
-    addDir ('Desporto','https://tuga.tv/series?T=&G=Desporto&O=1',3,'')
-    addDir ('Documentário','https://tuga.tv/series?T=&G=Document%C3%A1rio&O=1',3,'')
-    addDir ('Drama','https://tuga.tv/series?T=&G=Drama&O=1',3,'')
-    addDir ('Familiar','https://tuga.tv/series?T=&G=Familiar&O=1',3,'')
-    addDir ('Fantasia','https://tuga.tv/series?T=&G=Fantasia&O=1',3,'')
-    addDir ('SciFi','https://tuga.tv/series?T=&G=Fic%C3%A7%C3%A3o&O=1',3,'')
-    addDir ('Guerra','https://tuga.tv/series?T=&G=Guerra&O=1',3,'')
-    addDir ('História','https://tuga.tv/series?T=&G=Hist%C3%B3ria&O=1',3,'')
-    addDir ('Mistério','https://tuga.tv/series?T=&G=Mist%C3%A9rio&O=1',3,'')
-    addDir ('Música','https://tuga.tv/series?T=&G=M%C3%BAsica&O=1',3,'')
-    addDir ('Romance','https://tuga.tv/series?T=&G=Romance&O=1',3,'')
-    addDir ('Suspense','https://tuga.tv/series?T=&G=Suspense&O=1',3,'')
-    addDir ('Terror','https://tuga.tv/series?T=&G=Terror&O=1',3,'')
-    addDir ('Western','https://tuga.tv/series?T=&G=Western&O=1',3,'')
+    addDir ('Acção','https://tuga.tv/series?genero=1&ordem=1',3,'')
+    addDir ('Animação','https://tuga.tv/series?genero=2&ordem=1',3,'')
+    addDir ('Aventura','https://tuga.tv/series?genero=3&ordem=1',3,'')
+    addDir ('Biografia','https://tuga.tv/series?genero=4&ordem=1',3,'')
+    addDir ('Comédia','https://tuga.tv/series?genero=5&ordem=1',3,'')
+    addDir ('Crime','https://tuga.tv/series?genero=6&ordem=1',3,'')
+    addDir ('Desporto','https://tuga.tv/series?genero=7&ordem=1',3,'')
+    addDir ('Documentário','https://tuga.tv/series?genero=8&ordem=1',3,'')
+    addDir ('Drama','https://tuga.tv/series?genero=9&ordem=1',3,'')
+    addDir ('Familiar','https://tuga.tv/series?genero=10&ordem=1',3,'')
+    addDir ('Fantasia','https://tuga.tv/series?genero=11&ordem=1',3,'')
+    addDir ('SciFi','https://tuga.tv/series?genero=12&ordem=1',3,'')
+    addDir ('Guerra','https://tuga.tv/series?genero=13&ordem=1',3,'')
+    addDir ('História','https://tuga.tv/series?genero=14&ordem=1',3,'')
+    addDir ('Mistério','https://tuga.tv/series?genero=15&ordem=1',3,'')
+    addDir ('Música','https://tuga.tv/series?genero=16&ordem=1',3,'')
+    addDir ('Romance','https://tuga.tv/series?genero=17&ordem=1',3,'')
+    addDir ('Suspanse','https://tuga.tv/series?genero=18&ordem=1',3,'')
+    addDir ('Terror','https://tuga.tv/series?genero=19&ordem=1',3,'')
+    addDir ('Western','https://tuga.tv/series?genero=20&ordem=1',3,'')
 
 ###################################################################################
 #FUNCOES
@@ -203,7 +203,7 @@ def pesquisa_filmes():
     if (keyb.isConfirmed()):
         search = keyb.getText()
         parametro_pesquisa=urllib.quote(search)
-    url = 'https://tuga.tv/filmes?T='+str(parametro_pesquisa)+'&G=&O=1'
+    url = 'https://tuga.tv/filmes?pesquisa='+str(parametro_pesquisa)+'&genero=0&ordem=1'
     listar_filmes(url)
 
 def pesquisa_series():
@@ -212,7 +212,7 @@ def pesquisa_series():
     if (keyb.isConfirmed()):
         search = keyb.getText()
         parametro_pesquisa=urllib.quote(search)
-    url = 'https://tuga.tv/series?T='+str(parametro_pesquisa)+'&G=&O=1'
+    url = 'https://tuga.tv/series?pesquisa='+str(parametro_pesquisa)+'&genero=0&ordem=1'
     listar_series(url)
 
 ###################################################################################
